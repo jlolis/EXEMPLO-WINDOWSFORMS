@@ -16,5 +16,12 @@ namespace REGISTRODEPESSOAS
         {
             InitializeComponent();
         }
+
+        private void BtnEnviar_Click(object sender, EventArgs e)
+        {
+            String nome = txtNome.Text;
+
+            MessageBox.Show( "Ola, " + nome );
+        }
     }
 }
